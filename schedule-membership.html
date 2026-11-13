@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Schedule & Membership Plans | SWIMMING ACADEMY</title>
+  <meta name="description" content="View weekly swimming training schedules and transparent sample membership pricing in Indian Rupees (INR) at SWIMMING ACADEMY.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       GLOBAL HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="SWIMMING ACADEMY Homepage">
+        <span class="brand-logo-icon">🏊</span>
+        <span>SWIMMING ACADEMY</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <!-- Main Navigation Menu -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="programs.html" class="nav-link">Programs</a></li>
+          <li><a href="kids-swimming.html" class="nav-link">Kids</a></li>
+          <li><a href="adult-swimming.html" class="nav-link">Adults</a></li>
+          <li><a href="schedule-membership.html" class="nav-link active">Schedule & Plans</a></li>
+          <li><a href="coaches-gallery.html" class="nav-link">Coaches</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="contact.html#trial-form" class="btn btn-primary btn-sm">Book a Trial Class</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       PAGE HERO
+       ========================================================================= -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span>Schedule &amp; Membership</span>
+      </nav>
+      <h1 class="page-hero-title">Training Schedule &amp; Membership Plans</h1>
+      <p class="page-hero-lead">
+        Transparent session timings and value-driven membership plans tailored for kids, adults, and competitive swimmers.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION A: WEEKLY TRAINING SCHEDULE
+       ========================================================================= -->
+  <section class="section" id="schedule">
+    <div class="container">
+      <div class="section-header">
+        <div class="demo-badge">Sample Schedule • Editable Timings</div>
+        <h2 class="section-title">Weekly Training Schedule</h2>
+        <p class="section-description">
+          Find convenient morning and evening slots designed to fit around school, work, and family schedules.
+        </p>
+      </div>
+
+      <!-- Schedule Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn schedule-filter-btn active" data-filter="all">All Sessions</button>
+        <button class="filter-btn schedule-filter-btn" data-filter="kids">Kids Classes</button>
+        <button class="filter-btn schedule-filter-btn" data-filter="adults">Adult Classes</button>
+        <button class="filter-btn schedule-filter-btn" data-filter="advanced">Advanced &amp; Competitive</button>
+        <button class="filter-btn schedule-filter-btn" data-filter="safety">Water Safety</button>
+      </div>
+
+      <!-- Schedule Table -->
+      <div class="schedule-table-wrapper">
+        <table class="schedule-table" aria-label="Weekly Swimming Training Schedule">
+          <thead>
+            <tr>
+              <th scope="col">Program</th>
+              <th scope="col">Category</th>
+              <th scope="col">Days</th>
+              <th scope="col">Time</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-category="kids">
+              <td><strong>Kids Beginner Swimming</strong></td>
+              <td><span class="schedule-tag">Kids</span></td>
+              <td>Monday, Wednesday, Friday</td>
+              <td>7:00 AM – 8:00 AM</td>
+              <td><a href="contact.html?plan=Kids%20Beginner#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="kids">
+              <td><strong>Kids</strong></td>
+              <td><span class="schedule-tag">Kids</span></td>
+              <td>Monday to Saturday</td>
+              <td>4:00 PM – 5:00 PM</td>
+              <td><a href="contact.html?plan=Kids%20Swimming#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="adults">
+              <td><strong>Beginner Adults</strong></td>
+              <td><span class="schedule-tag">Adults</span></td>
+              <td>Monday, Wednesday, Friday</td>
+              <td>6:00 AM – 7:00 AM</td>
+              <td><a href="contact.html?plan=Beginner%20Adults#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="adults">
+              <td><strong>Adults</strong></td>
+              <td><span class="schedule-tag">Adults</span></td>
+              <td>Tuesday, Thursday, Saturday</td>
+              <td>7:00 AM – 8:00 AM</td>
+              <td><a href="contact.html?plan=Adult%20Swimming#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="advanced">
+              <td><strong>Advanced Swimming</strong></td>
+              <td><span class="schedule-tag">Advanced</span></td>
+              <td>Monday to Saturday</td>
+              <td>5:00 PM – 6:00 PM</td>
+              <td><a href="contact.html?plan=Advanced%20Swimming#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="advanced">
+              <td><strong>Competitive Practice</strong></td>
+              <td><span class="schedule-tag">Advanced</span></td>
+              <td>Tuesday, Thursday, Saturday</td>
+              <td>6:00 PM – 7:00 PM</td>
+              <td><a href="contact.html?plan=Competitive%20Practice#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+            <tr data-category="safety">
+              <td><strong>Water Safety Session</strong></td>
+              <td><span class="schedule-tag">Safety</span></td>
+              <td>Sunday</td>
+              <td>8:00 AM – 9:00 AM</td>
+              <td><a href="contact.html?plan=Water%20Safety#trial-form" class="btn btn-outline btn-sm">Enquire</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 1rem; text-align: center;">
+        * Note: The schedule shown above is sample demonstration information. Timings may be adjusted per season and academy availability.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION B: MEMBERSHIP PLANS (INDIAN RUPEE PRICING)
+       ========================================================================= -->
+  <section class="section section-bg-light" id="membership">
+    <div class="container">
+      <div class="section-header">
+        <div class="demo-badge">Sample Demonstration Pricing • Indian Rupees (₹)</div>
+        <h2 class="section-title">Membership Plans</h2>
+        <p class="section-description">
+          Choose a training package that fits your goals. Note: Memberships cannot be purchased online; contact our academy desk to register.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Plan 1: Basic Plan -->
+        <div class="pricing-card">
+          <h3 class="pricing-title">Basic Plan</h3>
+          <p class="pricing-subtitle">Ideal for beginners building routine</p>
+          <div class="pricing-price">₹1,499</div>
+          <span class="pricing-period">per month (sample rate)</span>
+          <ul class="pricing-features">
+            <li><span class="check-icon">✓</span> 3 swimming sessions per week</li>
+            <li><span class="check-icon">✓</span> Beginner training access</li>
+            <li><span class="check-icon">✓</span> Group practice format</li>
+            <li><span class="check-icon">✓</span> Locker &amp; shower facilities</li>
+            <li class="unavailable">✕ Flexible lane reservations</li>
+            <li class="unavailable">✕ 1-on-1 technique assessment</li>
+          </ul>
+          <a href="contact.html?plan=Basic%20Plan#trial-form" class="btn btn-outline pricing-select-btn" style="width: 100%;">Select Basic Plan</a>
+        </div>
+
+        <!-- Plan 2: Standard Plan -->
+        <div class="pricing-card popular">
+          <div class="pricing-badge">Most Popular</div>
+          <h3 class="pricing-title">Standard Plan</h3>
+          <p class="pricing-subtitle">For consistent progress &amp; stamina</p>
+          <div class="pricing-price">₹2,499</div>
+          <span class="pricing-period">per month (sample rate)</span>
+          <ul class="pricing-features">
+            <li><span class="check-icon">✓</span> 5 sessions per week</li>
+            <li><span class="check-icon">✓</span> Access to selected swimming programs</li>
+            <li><span class="check-icon">✓</span> Guided practice with coach cues</li>
+            <li><span class="check-icon">✓</span> Locker &amp; warm shower facilities</li>
+            <li><span class="check-icon">✓</span> Monthly technique check-in</li>
+            <li class="unavailable">✕ Flexible weekend masterclasses</li>
+          </ul>
+          <a href="contact.html?plan=Standard%20Plan#trial-form" class="btn btn-primary pricing-select-btn" style="width: 100%;">Select Standard Plan</a>
+        </div>
+
+        <!-- Plan 3: Premium Plan -->
+        <div class="pricing-card">
+          <h3 class="pricing-title">Premium Plan</h3>
+          <p class="pricing-subtitle">Comprehensive training access</p>
+          <div class="pricing-price">₹3,499</div>
+          <span class="pricing-period">per month (sample rate)</span>
+          <ul class="pricing-features">
+            <li><span class="check-icon">✓</span> Flexible weekly training slots</li>
+            <li><span class="check-icon">✓</span> Access to selected programs</li>
+            <li><span class="check-icon">✓</span> Additional supervised practice sessions</li>
+            <li><span class="check-icon">✓</span> Dedicated fast lane privileges</li>
+            <li><span class="check-icon">✓</span> Bi-weekly stroke video review</li>
+            <li><span class="check-icon">✓</span> Priority weekend lap access</li>
+          </ul>
+          <a href="contact.html?plan=Premium%20Plan#trial-form" class="btn btn-secondary pricing-select-btn" style="width: 100%;">Select Premium Plan</a>
+        </div>
+
+        <!-- Plan 4: Kids Swimming Plan -->
+        <div class="pricing-card">
+          <h3 class="pricing-title">Kids Swimming Plan</h3>
+          <p class="pricing-subtitle">Specialized curriculum for youth</p>
+          <div class="pricing-price">₹1,299</div>
+          <span class="pricing-period">per month (sample rate)</span>
+          <ul class="pricing-features">
+            <li><span class="check-icon">✓</span> Age-appropriate group lessons</li>
+            <li><span class="check-icon">✓</span> Beginner swimming instruction</li>
+            <li><span class="check-icon">✓</span> Supervised class sessions</li>
+            <li><span class="check-icon">✓</span> Low student-to-coach ratio</li>
+            <li><span class="check-icon">✓</span> Water safety awareness badge</li>
+            <li><span class="check-icon">✓</span> Parent viewing deck access</li>
+          </ul>
+          <a href="contact.html?plan=Kids%20Swimming%20Plan#trial-form" class="btn btn-outline pricing-select-btn" style="width: 100%;">Select Kids Plan</a>
+        </div>
+      </div>
+
+      <div class="demo-alert" style="margin-top: 2.5rem; text-align: center;">
+        <strong>Demonstration Pricing Notice:</strong> All fees shown above are sample demonstration prices in Indian Rupees (INR) for illustration purposes. Memberships are finalized in person at the academy facility. Online purchase or payment processing is not supported.
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MEMBERSHIP COMPARISON TABLE
+       ========================================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Feature Comparison</span>
+        <h2 class="section-title">Membership Comparison</h2>
+        <p class="section-description">
+          Review the core inclusions across our sample membership tiers.
+        </p>
+      </div>
+
+      <div class="schedule-table-wrapper">
+        <table class="schedule-table" aria-label="Membership Comparison Table">
+          <thead>
+            <tr>
+              <th scope="col">Feature</th>
+              <th scope="col">Basic (₹1,499)</th>
+              <th scope="col">Standard (₹2,499)</th>
+              <th scope="col">Premium (₹3,499)</th>
+              <th scope="col">Kids (₹1,299)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Sessions per Week</strong></td>
+              <td>3 Sessions</td>
+              <td>5 Sessions</td>
+              <td>Flexible Weekly</td>
+              <td>3 Sessions</td>
+            </tr>
+            <tr>
+              <td><strong>Format</strong></td>
+              <td>Group Practice</td>
+              <td>Group &amp; Guided</td>
+              <td>Supervised &amp; Priority</td>
+              <td>Small Youth Group</td>
+            </tr>
+            <tr>
+              <td><strong>Instructor Guidance</strong></td>
+              <td>General Group</td>
+              <td>Guided Feedback</td>
+              <td>Advanced Oversight</td>
+              <td>Attentive Supervision</td>
+            </tr>
+            <tr>
+              <td><strong>Locker &amp; Shower Access</strong></td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>Included</td>
+            </tr>
+            <tr>
+              <td><strong>Stroke Analysis</strong></td>
+              <td>—</td>
+              <td>Monthly Check-in</td>
+              <td>Bi-weekly Review</td>
+              <td>Quarterly Progress Card</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MEMBERSHIP FAQS
+       ========================================================================= -->
+  <section class="section section-bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Schedule &amp; Membership FAQs</h2>
+        <p class="section-description">
+          Clarifications regarding memberships, batch timings, and registration steps.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I switch between morning and evening batches?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, batch adjustments can typically be accommodated subject to lane capacity and coach availability. Please notify our reception desk at least 48 hours in advance so lane balances remain optimal.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can memberships be frozen or paused during travel?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Under our standard policies, memberships may be placed on temporary medical or travel hold for up to 14 consecutive days with advance written notice to the academy coordinator.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I purchase or activate a membership online?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              No. In keeping with safety and medical declaration requirements, memberships cannot be purchased online. You can reserve a demonstration trial class through this website, after which registration is completed in person.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are locker and shower facilities included with all plans?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes. All active registered academy members have full access to our clean changing rooms, secure day lockers, and warm pre/post-swim showers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CALL TO ACTION
+       ========================================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 class="cta-title">Ready to Experience a Trial Session?</h2>
+        <p class="cta-lead">
+          Submit your trial class enquiry today. Our team will verify slot availability and welcome you to the pool deck.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="contact.html#trial-form" class="btn btn-primary">Book Your Trial Class</a>
+          <a href="contact.html" class="btn btn-outline-white">Contact Academy Desk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       GLOBAL FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="color: #FFFFFF;">
+            <span class="brand-logo-icon">🏊</span>
+            <span>SWIMMING ACADEMY</span>
+          </a>
+          <p class="footer-text">
+            A professional swimming academy committed to water safety, skill progression, and aquatic fitness for swimmers of all ages and backgrounds.
+          </p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Instagram">ig</a>
+            <a href="#" class="social-btn" aria-label="YouTube">yt</a>
+            <a href="#" class="social-btn" aria-label="Twitter">tw</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Swimming Programs</a></li>
+            <li><a href="kids-swimming.html">Kids & Teen Swimming</a></li>
+            <li><a href="adult-swimming.html">Adult Swimming & Fitness</a></li>
+            <li><a href="schedule-membership.html">Schedule & Membership</a></li>
+            <li><a href="coaches-gallery.html">Coaches & Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html#beginner">Beginner Swimming</a></li>
+            <li><a href="kids-swimming.html">Kids Swimming Lessons</a></li>
+            <li><a href="adult-swimming.html">Adult Beginner & Fitness</a></li>
+            <li><a href="programs.html#advanced">Advanced Technique</a></li>
+            <li><a href="programs.html#competitive">Competitive Training</a></li>
+            <li><a href="programs.html#safety">Water Safety Education</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Academy Details</h4>
+          <div class="demo-badge" style="color: #063B66; background: #BDEDF3; margin-bottom: 0.75rem;">Sample Information</div>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📍</span>
+              <span>Main Road, Your City, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📞</span>
+              <span>+91 90000 00000</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">✉️</span>
+              <span>demo@example.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">🕒</span>
+              <span>Mon – Sat: 6:00 AM – 8:00 PM<br>Sun: 7:00 AM – 1:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year">2026</span> SWIMMING ACADEMY. All rights reserved.
+        </div>
+        <div>
+          <span>Demonstration Website • Pure HTML5, CSS3 &amp; Vanilla JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
